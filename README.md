@@ -1,6 +1,6 @@
 # LaMetric app for gitlab
 
-This LaMetric apps allow you to display information about your gitlab instance on yout [LaMetric device](lametric.com)
+This LaMetric apps allow you to display information about your gitlab instance on your [LaMetric device](lametric.com)
 
 ### Quick start
  1) Generate a personal gitlab token
@@ -13,7 +13,7 @@ This LaMetric apps allow you to display information about your gitlab instance o
  3) Lauch the server
  ```bash
  docker run                                                         \
-    -e GITLAB__BASEURL=your.gitlab.com                              \
+    -e GITLAB__BASEURL=http://your.gitlab.com                       \
     -e GITLAB__TOKEN=XXXXXXXX                                       \
     -e LAMETRIC__PUSH_URL=https://developer.lametric.com/XXXXXX     \
     -e LAMETRIC__ACCESS_TOKEN=XXXXXXX                               \
